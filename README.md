@@ -18,6 +18,9 @@ vacuum:
    token: <api Token>
    name: <naam for the vacuum>
 
+for token look here : https://www.home-assistant.io/integrations/xiaomi_miio/ 
+
+
 create folders inside of the configfolder 
 - config:
   - custom_components
