@@ -11,12 +11,13 @@ list of the attribues : https://miot-spec.org/miot-spec-v2/instance?type=urn:mio
 this intergration is fo : Xiaomi Mi Robot Vacuüm Mop 2 Pro +
  
 add this to the Configuration.yaml
-
+```
 vacuum:
  - platform: xiaomi_vacuum
    host: <local ip of the vacuum>
    token: <api Token>
    name: <naam for the vacuum>
+```
 
 for token look here : https://www.home-assistant.io/integrations/xiaomi_miio/ 
 
