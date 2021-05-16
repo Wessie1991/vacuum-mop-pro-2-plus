@@ -1,5 +1,7 @@
 # vacuum-mop-pro-2-plus (vacuum.p2041o)
 this is intergration for  vacuum-mop-pro-2-plus divice name dreame.vacuum.p2041o
+ https://nl.aliexpress.com/item/1005001592602003.html?spm=a2g0s.9042311.0.0.2f4d4c4dysaCL4
+ 
 
 voor alle overige moddel kan je hier kijken: http://miot-spec.org/miot-spec-v2/instances?status=all
 
@@ -7,8 +9,6 @@ voor alle overige moddel kan je hier kijken: http://miot-spec.org/miot-spec-v2/i
 list of the attribues : https://miot-spec.org/miot-spec-v2/instance?type=urn:miot-spec-v2:device:vacuum:0000A006:dreame-p2041o:1
 
 this intergration is fo : Xiaomi Mi Robot Vacuüm Mop 2 Pro +
-
- https://nl.aliexpress.com/item/1005001592602003.html?spm=a2g0s.9042311.0.0.2f4d4c4dysaCL4
  
 add this to the Configuration.yaml
 
@@ -23,3 +23,6 @@ create folders inside of the configfolder
   - custom_components
     - xiaomi_vacuum
       - paste here all your files from the github 
+
+
+it's is a fast and ugly project because i dindt find a competibel intergration for my vacuum  robot 
