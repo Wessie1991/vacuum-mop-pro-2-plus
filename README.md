@@ -1,4 +1,4 @@
-# vacuum-mop-pro-2-plus
+# vacuum-mop-pro-2-plus (vacuum.p2041o)
 this is intergration for  vacuum-mop-pro-2-plus divice name dreame.vacuum.p2041o
 
 voor alle overige moddel kan je hier kijken: http://miot-spec.org/miot-spec-v2/instances?status=all
