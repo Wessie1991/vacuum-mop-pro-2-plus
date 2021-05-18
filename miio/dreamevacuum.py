@@ -200,9 +200,9 @@ class DreameStatus:
     # # piid: 20 ():
     water_level: int = field(
         metadata={
-            "siid": 18,
-            "piid": 20,
-            "access": ["read", "write", "notify"],
+            "siid": 4,
+            "piid": 6,
+            "access": ["read",  "notify"],
             "enum": WaterLevel,
         },
         default=None,
@@ -388,7 +388,7 @@ class DreameVacuum(MiotDevice):
     @command()
     def map_req(self) -> None:
         """aiid 1 map-req: in: [2] -> out: []"""
-        return self.call_action(23, 1)
+        return self.call_action(6, 1)
 
     # siid 24: (audio): 2 props, 3 actions
     # aiid 1 : in: [] -> out: []
