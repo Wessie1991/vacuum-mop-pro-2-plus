@@ -2,7 +2,10 @@
   "domain": "xiaomi_vacuum",
   "name": "Xiaomi Vacuum",
   "documentation": "",
-  "requirements": [],
+  "requirements": [
+    "construct==2.10.70",
+    "python-miio>=0.5.12"
+  ],
   "codeowners": ["@concentricc"],
   "version": "1.0"
 }
